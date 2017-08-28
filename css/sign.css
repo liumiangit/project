@@ -1,0 +1,388 @@
+.s_top{
+	width: 100%;
+	background-color: #F88C1A;
+	text-align: center;
+	height: 26px;
+}
+.s_top div a{
+	color: white;
+	font-size: 12px;
+	padding: 0 10px;
+}
+.s_box{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.s_grap{
+	width: 980px;
+	height: 480px;
+	margin: 0 auto;
+}
+.s_title{
+	height: 30px;
+	border-bottom: 2px solid black;
+}
+.s_title span{
+	color: #5A5A5A;
+}
+.s_content .s_left{
+	height: 420px;
+	width: 449px;
+	border-right: 1px gray dotted;
+	margin-top: 25px;
+	margin-left: 30px;
+	display: inline-block;
+}
+.s_left div{
+	position: relative;
+	top: 18px;
+}
+.s_left div:nth-child(2){
+	margin-top: 20px;
+	font-size: 10px;
+}
+.s_left div:nth-child(2) .s_num{
+	width: 50px;
+	height: 30px;
+	font-size: 20px;
+	text-align: center;
+}
+.s_left div:nth-child(2) .s_round{
+	border: 1px solid #ccc;
+	padding: 5px;
+	cursor: pointer;
+	background-color: #F88C1A;
+	color: white;
+	margin-right: 10px;
+}
+.s_left .s_in{
+	margin-top: 20px;
+	width: 72px;
+	height: 32px;
+	display: block;
+	background-color: #F88C1A;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.s_left .s_in b{
+	font-size: 12px;
+	color: white;
+}
+.s_left div form{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.s_left div input{
+	width:344px;
+	height: 36px;
+}
+.s_right{
+	width: 390px;
+	height: 360px;
+	float: right;
+	margin-right: 48px;
+	margin-top: 25px;
+}
+.s_right .s_top{
+	padding: 5px;
+	background-color: #FFFFCC;
+	border: 1px dashed #FF4500;
+	color: #FF4500;
+	width: 344px;
+}
+.s_right p{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+.s_right p span{
+	color: #228B22;
+}
+.s_right p a{
+	color: black;
+	margin-left: 97px;
+}
+.s_center{
+	margin-top: 20px;
+}
+.s_center form{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.s_center input{
+	width: 344px;
+	height: 30px;
+}
+.s_center p{
+	color: gray;
+}
+.s_bottom{
+	margin-top: 14px;
+}
+.s_bottom input{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+.s_bottom p{
+	margin:2px 0;
+}
+.s_bottom p:nth-child(2){
+	margin-left: 15px;
+}
+.s_bottom p:nth-child(3){
+	margin-top: 8px;
+}
+.s_bottom p:nth-child(3) span{
+	color: black;
+}
+.s_bottom p:nth-child(3) a{
+	color: blue;
+	margin-left: 5px;
+}
+.s_right .s_btn{
+	width: 72px;
+	height: 32px;
+	display: block;
+	background-color: #F88C1A;
+	text-align: center;
+	line-height: 32px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.s_right .s_btn b{
+	font-size: 12px;
+	color: white;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix::after{
+    content:"";
+    display:block;
+    height: 0px;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+}
+.container{
+    width: 1030px;
+    margin:0 0 0 100px;
+}
+nav{
+    height: 30px;
+    background:#2B2B2B;
+}
+nav {
+    border-bottom:3px solid #CFCFCF;
+}
+.nav_l{
+    width: 200px;
+    height: 30px;
+    background:#404040;
+    font-size:12px;
+    line-height: 30px;
+    padding-left:10px;
+    color:#CFCFCF;
+    position:relative;
+}
+.nav_l .list1{
+    width: 210px;
+    position:absolute;
+    top:30px;
+    left:0;
+    text-align:center;
+    display:none;
+    z-index:100;
+}
+.nav_l .list1 li{
+    position:relative;
+    background:#fff;
+    color:#5A5A64;
+}
+.nav_l .list1 li i{
+    position:absolute;
+    top:15px;
+    right:5px;
+}
+.nav_l:hover{
+    cursor:pointer;
+}
+.nav_l:hover .list1{
+    display:block;
+}
+.nav_l:hover .list1 li{
+    width: 210px;
+}
+.nav_l .list1 dl{
+    width: 210px;
+}
+.nav_l .list1 dl dt{
+    text-align:left;
+    padding-left:10px;
+    font-size:12px;
+    font-weight:bold;
+}
+.nav_l .list1 dl dd{
+    float:left;
+    margin-left:10px;
+    color:#5A5A9F;
+}
+.nav_l .list1 dl dd:hover{
+    text-decoration:underline;
+    color:#fff;
+}
+.nav_l .list1 .list2{
+    background:#404040;
+    position:absolute;
+    top:0;
+    left:210px;
+    width: 330px;
+    padding-top:10px;
+    display:none;
+}
+.nav_l .list1>li:hover{
+    background:#2B2B2B;  
+}
+.nav_l .list1>li:hover i{
+    display:none;
+}
+.nav_l .list1>li:hover .list2{
+    display:block;
+}
+.nav_l .list1>li:hover dl dt,.nav_l .list1>li:hover dl dd{
+    color:#8FB8CF;
+}
+.nav_l .list1 .list2 .ls2_p{
+    color:#99998D;
+    text-align:left;
+    padding-left:10px;
+    font-size:12px;
+    line-height: 16px;
+}
+.nav_l .list1 .list2 .lista{
+    margin:0 5px;
+    border-top:2px solid #999999;
+}
+.nav_l .list1 .list2 a{
+    font-size:12px;
+    float:left;
+    width: 80px;
+    margin-left:10px;
+    height: 22px;
+    color:#CFCFCF;
+    line-height: 22px;
+
+}
+.nav_l .list1 .list2 a:hover{
+    color:#000;
+    background:#fff;
+}
+/*---------nav_r-------------*/
+.nav_r li{
+    float:left;
+    height: 30px;
+    padding-top:9px;
+    box-sizing:border-box;
+}
+.nav_r li a{
+    display:block;
+    height: 14px;
+    font-size:12px;
+    padding:0 15px;
+    border-right:1px solid #C2BF9D;
+    color:#F2FFF2;
+}
+.nav_r li:last-child a{
+    border-right:0 none;
+}
+.nav_r li:hover{
+    background:#fff;
+}
+.nav_r li:hover a{
+    color:#000;
+}
+
+
+
+
+
+
+footer{
+    border-top:2px solid #5A5A5A;
+    height: 244px;
+    width: 100%;
+}
+footer .f_t{
+    height: 145px;
+    margin-left: 125px;
+}
+footer .f_t .ff{
+    float:left;
+    width: 180px;
+    margin-top:10px;
+    margin-left:10px;
+}
+footer .f_t .ff dt{
+    font-size:14px;
+    line-height: 24px;
+    font-weight:bold;
+    color:#333333;
+}
+footer .f_t .ff dd{
+    font-size:12px;
+    line-height: 20px;
+    color:#333333;
+}
+footer .f_m{
+    text-align:center;
+    margin-top:15px;
+    margin-left:125px;
+}
+footer  .f_b{
+    margin-top:5px;
+}
+footer .f_b p{
+   text-align:center;
+}
+footer .f_4 img{
+    display:inline-block;
+}
+footer .f_5{
+    width: 240px;
+    float:left;
+    padding-top:10px;
+}
+footer .f_5 img:first-child{
+    float:left;
+}
+footer .f_5 input{
+    margin-top:5px;
+}
+footer .f_5 img:last-child{
+    margin-top:5px;
+    margin-left:40px;
+}

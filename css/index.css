@@ -1,0 +1,177 @@
+/**{margin: 0;padding: 0;}*/
+img{
+    border:0;
+    border:0 none;
+    display: block;
+}
+ol, ul ,li{list-style: none;}
+body{font-size:12px;}
+a{text-decoration:none;}
+
+header{
+    height:88px;
+    background-color:#ff4500;
+}
+nav{
+    height: 30px;
+    background-color: #2b2b2b;
+}
+aside{
+    width:210px;height: 1500px;
+    float: left;
+}
+main{
+    width: 770px;
+    height:1540px;
+    float: left;
+}
+ main .w_header{
+    padding:40px 0 0 0 ;
+    height:20px;
+    border-bottom:2px solid #000;
+
+}
+ main ul{
+    float: right;
+    padding:0 15px 0 0 ;
+    text-align:center;
+}
+ main ul li{
+    float: left;
+}
+ main ul li a{
+    color:#000;
+    display: block;
+    padding:0 10px;
+
+}
+main ul li a:hover{
+    color:#ff4500;
+}
+ main .w_header span{
+    color:#646464;
+    display: block;
+    float: left;
+    font-weight:bolder;
+    padding-left: 10px;
+}
+ main .w_header>a{
+    display: block;
+    float: left;
+    width: 60px;
+    text-align: center;
+    color:#515151;
+    position:relative;
+}
+ main .w_header a.active{
+    color:#ff4552;
+}
+main .w_header a i{
+    display: block;
+    width: 10px;
+    height: 10px;
+    position:absolute;
+    top: 3px;
+    right: 5px;
+}
+main .w_header ul li, main .w_footer ul li{
+    position:relative;
+}
+main .w_header ul li i, main .w_footer ul li i{
+    display: block;
+    width: 8px;
+    height: 8px;
+    position:absolute;
+    background:url('../images/main_arror_3.png');
+    top: 5px;
+    right: -10px;
+}
+main .w_goodslist{
+    width: 770px;
+    height:1432px;
+}
+main .w_back_top{
+    position:fixed;
+    top: 160px;
+    right: 130px;
+    opacity:0;
+    transition:opacity 1s;
+
+}
+main .w_back_top span{
+    text-align: center;
+    display: block;
+    height: 30px;
+    background-color: #ccc;
+    line-height: 30px;
+}
+main .w_back_top span:hover{
+    color:#ff4552;
+}
+main .w_footer{
+    height: 46px;
+    line-height: 46px;
+    /* background-color: #f00; */
+}
+/* footer 的ul跟顶部的ul样式一致,在上面加了并集选择一起写了样式,个别再调整 */
+ main .w_footer ul li i{
+    top:18px;
+}
+ main .w_footer span{
+    display: block;
+    float: right;
+}
+ main .w_footer span a{
+    font-weight:bolder;
+    display: inline-block;
+    padding: 0 10px;
+    color:#464646;
+}
+ main .w_footer span a:hover{
+    color:#ff4545;
+}
+/* 商品列表样式 */
+ main .w_goodslist div{
+    float: left;
+    width: 192.5px;
+    height:286px;
+}
+ main .w_goodslist div img{
+    margin:0 auto;
+}
+ main .w_goodslist div input{
+    display: inline-block;
+    vertical-align:middle;
+}
+ main .w_goodslist div a{
+    display:block;
+    padding:0 5px;
+    line-height:18px;
+    color:#333;
+}
+ main .w_goodslist div a:last-of-type{
+    padding:0 10px;
+    text-decoration:underline;
+}
+main .w_goodslist div a:hover{
+    color:#ff4545;
+
+}
+ main .w_goodslist div span{
+    color:#464646;
+    display: inline-block;
+    padding:2px 5px;
+}
+ main .w_goodslist div span:nth-of-type(1){
+    text-decoration:line-through;
+}
+ main .w_goodslist div span:nth-of-type(2){
+    color:#ff4545;
+}
+ main .w_goodslist div span:nth-of-type(3){
+    color:#228b22;
+}
+ main .w_goodslist div p{
+    text-align: center;
+    color:#464646;
+}
